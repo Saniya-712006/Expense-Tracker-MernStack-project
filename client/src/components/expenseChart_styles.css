@@ -1,0 +1,22 @@
+
+.innerdiv{
+	margin-bottom:10px;
+}
+
+
+
+
+.innerdiv input{
+ margin-left: 10px;
+ margin-right:10px;
+}
+
+.innerdiv button{
+	 margin-left: 10px;
+}
+
+.outerdiv Pie{
+	max-width: 80%;
+	max-height: 100px;
+	margin: 0 auto;
+}

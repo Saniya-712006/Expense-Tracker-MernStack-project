@@ -1,0 +1,78 @@
+.LoginMainContent{
+	
+	font-family: "Arial, sans-serif";
+	background-color: #f4f4f4;
+	padding: "40px" 
+}
+
+.LoginMainContent label{
+	color:black;
+	font-size:16px;
+}
+
+.InnerDiv{
+	max-width: 400px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 30px;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+	
+}
+
+.InnerDiv h1{
+	
+	text-align: center;
+	color: black ;
+	padding-bottom:15px;
+	font-size:24px;
+	
+}
+
+.InnerDiv input{
+	
+	 width: 100%; 
+	 padding: 15px;
+	 font-size:16px;
+	
+	 margin-top: 10px;
+	 margin-bottom: 20px;
+	 border: 1px solid #ccc;
+	 border-radius: 5px ;
+	 
+	
+}
+
+.InnerDiv button{
+	 width: 100%;
+	 padding: 15px;
+	 background-color: #28a745;
+	 color: #fff;
+	 border: none;
+	 border-radius: 5px;
+	 cursor: pointer;
+	 
+	 
+	 
+	 
+}
+
+.InnerDiv button:hover{
+	background-color:#218838;
+}
+
+.errorMessage{
+	color: red;
+	font-size: 14px;
+	margin-top:-10px;
+	margin-bottom:10px;
+}
+
+.InnerDiv a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.InnerDiv a:hover {
+  text-decoration: underline;
+}

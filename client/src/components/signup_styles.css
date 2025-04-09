@@ -1,0 +1,65 @@
+.mainContent{
+	width:300px;
+	margin:50px auto;
+	font-family:Arial,sans-serif;
+	
+}
+
+
+.mainContent input{
+	width: 100%;
+	padding:8px;
+	margin:10px 0;
+	
+}
+.mainContent label{
+	color:black;
+}
+.mainContent #submitButton{
+	width:100%;
+	padding:10px;
+	background-color:green;
+	color:white;
+	border:none;
+	cursor:pointer;
+	border-radius:4px;
+}
+.mainContent button{
+	width:100%;
+	padding:10px;
+	background-color:green;
+	color:white;
+	border:none;
+	cursor:pointer;
+	border-radius:4px;
+}
+
+.mainContent #submitButton:hover{
+	background-color:lightgreen;
+	color:black;
+}
+
+.mainContent p{
+	text-align:center;
+	margin-top:10px;
+	color:black;
+}
+
+
+
+.mainContent h2{
+	text-align:center;
+	color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,31 @@
+.AuthMainContent{
+	text-align:center;
+	font-family:Arial,sans-serif;
+	
+}
+
+.AuthMainContent p{
+	font-size:14px;
+	margin-top:10px;
+	color:blue;
+	
+}
+
+.AuthMainContent button{
+	background-color:green;
+	color:white;
+	padding:5px;
+	cursor:pointer;
+	border-radius:5px;
+	
+}
+
+.AuthMainContent button:hover{
+	background-color:lime;
+	color:black;
+}
+
+.AuthMainContent p:hover{
+	text-decoration:underline;
+	color:purple;
+}

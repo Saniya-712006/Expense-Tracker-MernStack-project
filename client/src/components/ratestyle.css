@@ -1,0 +1,106 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: hsla(300, 100%, 97%, 0.9); /* Lighter, brighter background */
+    color: #802BB1; /* Brighter text color */
+    transition: 0.5s ease;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.rating-wrap {
+    max-width: 520px; /* Slightly wider */
+    padding: 30px; /* Increased padding */
+    background: #F0E4FF; /* Brighter box color */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Softer shadow for depth */
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.rating-wrap:hover {
+    transform: scale(1.03); /* Subtle scale-up effect on hover */
+}
+
+.centre {
+    width: 180px; /* Center elements more in the container */
+    margin: auto;
+}
+
+.rating {
+    border: none;
+    float: left;
+}
+
+.rating > input {
+    display: none; /* Hide radio buttons */
+}
+
+.rating > label:before {
+    content: '\f005'; /* Star character */
+    font-family: FontAwesome;
+    margin: 5px;
+    font-size: 1.6rem; /* Larger stars */
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rating > label {
+    color: #FFB300; /* Bright yellow color for unselected stars */
+    float: right;
+    cursor: pointer;
+}
+
+.rating > input:checked ~ label {
+    color: #FF6F61; /* Bright coral color for selected stars */
+}
+
+.rating > input:not(:checked) + label:hover,
+.rating > input:not(:checked) + label:hover ~ label {
+    color: #FFCC33; /* Lightened hover color for unselected stars */
+}
+
+textarea {
+    width: 100%;
+    min-height: 100px; /* Slightly taller for better readability */
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #A056B1; /* Light purple border */
+    border-radius: 6px;
+    resize: none;
+    background-color: #FFF5FF; /* Softer background color */
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px 18px;
+    background-color: #FF6F61; /* Brighter coral color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #E65A50; /* Slightly darker coral on hover */
+}
